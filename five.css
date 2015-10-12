@@ -114,8 +114,8 @@
 }
 
 .column {
-	float: left;
-	width: 297px;
+	float: none;
+	width: auto;
 	text-align: left;
 	margin: 40px 15px 110px 15px;
 }
@@ -186,4 +186,159 @@
 	height: 28px;
 	width: 28px;
 	margin: 0px 5px 0px 5px;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+	.logo {
+	width: auto;
+	float: none;
+	}
+
+	.logo p {
+		margin-top: 16px;
+		margin-left: 23px;
+		font-size: 25px;
+		text-transform: uppercase;
+		font-family: "Montserrat-Bold";
+		font-weight: 800;
+	}
+
+	.navigation {
+		display: none;
+		font-family: "Montserrat-Regular";
+		text-transform: uppercase;
+		font-size: 12px;
+		margin-top: 13px;
+		letter-spacing: .06em;
+
+	}
+
+	.navigation a {
+		display: none;
+		text-decoration: none;
+		color: #777;
+	}
+
+	.navigation a:hover {
+		display: none;
+		color: black;
+		
+	}
+	.navigation li {
+		display: none;
+		color: #d3d3d3
+		
+	}
+
+	.header-images {
+		display: none;
+		float: none;
+		width: 30%;
+		text-decoration: none;
+		text-align: right;
+		margin-top: 13px;
+		display: none;
+
+	}
+	.header-images img {
+		display: none;
+		width: 20px;
+		display: none;
+
+	}
+	.header-images a {
+		margin: 0px 2px 0px 2px;
+		display: none;
+	}
+	.clearfix {
+		clear: both;
+	}
+
+	.banner-text p {
+		position: absolute;
+		text-align: center;
+		top: 140px;
+	    left:0;
+	    right:0;
+	    bottom:0;
+	    height: 50px;
+	    font-size:62px;
+	    font-family: "Montserrat-UltraLight";
+	    color: #FFFFFF;
+	}
+
+	.middle-text {
+		text-align: center;
+		font-size: 32px;
+		padding: 75px 45px 75px 45px;
+		line-height: 1.6em;
+		margin: 0px 17px 0px 17px;
+		border-bottom: solid #D3D3D3 1px;
+
+	}
+
+	.middle-text p {
+		font-family:"Montserrat-UltraLight"
+
+	}
+
+	.wrapper {
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0px;
+		font-family: "Montserrat-UltraLight";
+		
+	}
+
+	.column {
+		float: none;
+		margin: 0 auto
+		width: 100%;
+		text-align: left;
+		margin: 7% 3% 7% 3%;
+	}
+
+	.heading {
+		color: orange;
+		font-size: 23px;
+		margin-bottom: 20px;
+	}
+
+	.image {
+		text-align: left;
+	}
+
+	.image img {
+		width: 95%;
+		height: 75%;
+		margin: 0 auto;
+	}
+
+	.image-text {
+		font-size: 15px;
+		line-height: 1.5em;
+		color:#777;
+	}
+
+	.image-link {
+		margin-top: 25px;
+	}
+
+	.image-link a {
+		text-decoration: none;
+		color: black;
+		font-size: 15px;
+	}
+
+	.image-link a:hover {
+		color: #777;
+	}
+
+	.footer {
+		width: 100%;
+		border-top: solid #D3D3D3 1px;
+		margin-bottom: 90px;
+	}
 }
